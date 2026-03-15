@@ -1,5 +1,5 @@
 %
-O[Unique Number] 
+O2/14/2011 
 ([NAME OF DESIGN]) 
 (This template is for any Haas CNC machine.  EOL characters are not required.  If using another machine check controller documentation.
 
@@ -20,7 +20,18 @@ G01 F5. 					(Change to Cutting speed and set Feed Rate.)
 			Z-0.3			(Drop cutter into work)
 
 [POSITIONS GO HERE]
-
+g00 x2.50 y2.25
+g01 z-0.5 f12.0
+y2.0
+x2.75
+g02 y1.5 r0.25
+g01 x2.5
+y1.25
+x3.25
+y0.75
+x2.0
+y2.25
+x2.5
 (End Sequence)
 			Z2.				(Raise Cutter)
 G28							(Machine Home) 
