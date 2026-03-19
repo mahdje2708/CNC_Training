@@ -1,7 +1,7 @@
 %
-O[Unique Number] 
-([NAME OF DESIGN]) 
-(This template is for any Haas CNC machine.  EOL characters are not required.  If using another machine check controller documentation.
+O2142011 
+(Mahutin's Letter) 
+(This template is for any Haas CNC machine.  EOL characters are not required.  If using another machine check controller documentation.)
 
 (Startup Process)
 M06 T1	 					(Select tool)
@@ -20,7 +20,18 @@ G01 F5. 					(Change to Cutting speed and set Feed Rate.)
 			Z-0.3			(Drop cutter into work)
 
 [POSITIONS GO HERE]
-
+G00 X2.50 Y2.25
+G01 Z-0.5 F12.0
+Y2.0
+X2.75
+G02 Y1.5 r0.25
+G01 X2.5
+Y1.25
+X3.25
+Y0.75
+X2.0
+Y2.25
+X2.5
 (End Sequence)
 			Z2.				(Raise Cutter)
 G28							(Machine Home) 
