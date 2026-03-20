@@ -15,10 +15,10 @@ G43 H01 					(Use Tool Offset #1)
 
 (Set Feedrate and drop to just above origin)
 G01 F5. 					(Change to Cutting speed and set Feed Rate.)
-			Z-0.3			(Drop cutter into work)
+			Z0.2			(Drop cutter into work)
 
 G00 X2.0 Y2.25
-G01 Z-0.5 F12.0
+G01 Z-0.2 F12.0
 X2.50
 Y2.0
 X2.75
