@@ -1,7 +1,7 @@
 %
 O2142011 
 (Mahutin's Letter) 
-(This template is for any Haas CNC machine.  EOL characters are not required.  If using another machine check controller documentation.
+(This template is for any Haas CNC machine.  EOL characters are not required.  If using another machine check controller documentation.)
 
 (Startup Process)
 M06 T1	 					(Select tool)
