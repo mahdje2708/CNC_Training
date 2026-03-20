@@ -11,21 +11,18 @@ G00 						(Rapid Movement)
 G90 G17 					(Safe Startup Line: Absolute Programming and Set the active plane as XY)
 	X0. Y0. 				(Position at 0 for X and Y axes - set in work offsets)
 G43 H01 					(Use Tool Offset #1)
-G91 						(Change to incremental positioning)
-			Z0.15 			(Move to Z position just above work)
 (END Startup Process)
 
 (Set Feedrate and drop to just above origin)
 G01 F5. 					(Change to Cutting speed and set Feed Rate.)
 			Z-0.3			(Drop cutter into work)
 
-[POSITIONS GO HERE]
 G00 X2.0 Y2.25
 G01 Z-0.5 F12.0
 X2.50
 Y2.0
 X2.75
-G02 Y1.5 R0.25
+G02 Y1.5 R0.25 F5.0
 G01 X2.5
 Y1.25
 X3.25
